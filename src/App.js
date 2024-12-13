@@ -8,6 +8,7 @@ import Novità from './components/novità'
 import Episodi from './components/Episodi'
 import NuoveUscite from './components/nuoveUscite'
 import Esplorare from './components/Esplorare'
+import MyFooter from './components/footer'
 
 function App() {
   return (
@@ -16,10 +17,10 @@ function App() {
         <div className="App">
           <div className="row g-0">
             {/* Colonna più piccola */}
-            <div className="col-2">
+            <div className="col-2 ">
               <div
                 style={{
-                  backgroundColor: '#f8f9fa',
+                  backgroundColor: '#252526',
                   height: '100vh',
                   overflowX: 'hidden',
                 }}
@@ -32,9 +33,10 @@ function App() {
             <div className="col-10">
               <div
                 style={{
-                  backgroundColor: '#e9ecef',
+                  backgroundColor: '#1F1F1F',
                   height: '100vh',
                   overflowX: 'hidden',
+                  color: 'white',
                 }}
               >
                 <Nav />
@@ -42,6 +44,7 @@ function App() {
                 <Episodi />
                 <NuoveUscite />
                 <Esplorare />
+                <MyFooter />
               </div>
             </div>
           </div>
