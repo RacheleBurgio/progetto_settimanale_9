@@ -14,7 +14,6 @@ function Nav() {
       }}
     >
       <Container className="d-flex justify-content-between align-items-center">
-        {/* Gruppo icone di controllo */}
         <div className="d-flex align-items-center">
           <i className="bi bi-shuffle me-3" style={{ color: 'white' }}></i>
           <i
@@ -29,7 +28,6 @@ function Nav() {
           <i className="bi bi-repeat" style={{ color: 'white' }}></i>
         </div>
 
-        {/* Logo con sfondo e forma rettangolare */}
         <div
           className="d-flex justify-content-center"
           style={{
@@ -47,31 +45,27 @@ function Nav() {
           />
         </div>
 
-        {/* Gruppo icone e pulsante */}
         <div className="d-flex align-items-center">
           <i className="bi bi-volume-up me-3" style={{ color: 'white' }}></i>
 
-          {/* Barra del volume */}
           <div
             style={{
-              width: '100px', // larghezza della barra del volume
-              height: '5px', // altezza della barra
-              backgroundColor: '#888', // colore della barra
+              width: '100px',
+              height: '5px',
+              backgroundColor: '#888',
               borderRadius: '5px',
             }}
           >
-            {/* Barra dinamica (livello volume) */}
             <div
               style={{
-                width: '60%', // valore del volume (può essere dinamico)
+                width: '60%',
                 height: '100%',
-                backgroundColor: 'white', // colore della barra del volume
+                backgroundColor: 'white',
                 borderRadius: '5px',
               }}
             />
           </div>
 
-          {/* Bottone rosso con icona */}
           <Button variant="danger" className="ms-3">
             <i className="bi bi-person-fill" style={{ color: 'white' }}></i>
             accedi

@@ -40,7 +40,7 @@ function NuoveUscite() {
   return (
     <>
       <h1 className="text-start ms-3" style={headingStyles}>
-        Nuove Uscite<i class="bi bi-chevron-right"></i>
+        Nuove Uscite<i className="bi bi-chevron-right"></i>
       </h1>
 
       {loading ? (
@@ -51,7 +51,7 @@ function NuoveUscite() {
             {row.map((song, index) => (
               <div
                 key={index}
-                className="col text-start ms-4 d-flex flex-column justify-content-between"
+                className="col-12 col-sm-3 col-md-4 col-lg text-start ms-4 d-flex flex-column justify-content-between"
                 style={{ height: '100%' }}
               >
                 <img
